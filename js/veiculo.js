@@ -69,6 +69,7 @@
       principal.alt = altBase + ', foto principal';
       principal.width = 640;
       principal.height = 480;
+      if (v.posicao) principal.style.objectPosition = v.posicao;
 
       if (v.fotos.length > 1) {
         thumbs.innerHTML = v.fotos.map(function (caminho, i) {

@@ -35,7 +35,7 @@
     return '' +
       '<article class="card-veiculo reveal">' +
         '<div class="card-foto">' +
-          '<img src="' + v.capa + '" alt="' + titulo + (v.ano ? ' ' + v.ano : '') + ' à venda na Ferreira Veículos" loading="lazy" width="420" height="315">' +
+          '<img src="' + v.capa + '" alt="' + titulo + (v.ano ? ' ' + v.ano : '') + ' à venda na Ferreira Veículos" loading="lazy" width="420" height="315"' + (v.posicao ? ' style="object-position:' + v.posicao + '"' : '') + '>' +
           selo +
           '<span class="card-marca">' + v.marca + '</span>' +
         '</div>' +

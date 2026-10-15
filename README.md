@@ -95,6 +95,7 @@ incluir, esconder ou alterar um carro.
   descricao: 'Texto do anúncio...',
   fotos: ['img/veiculos/fiat-argo-2020.jpg'],   // 1ª foto = capa
   capa: 'img/veiculos/thumbs/fiat-argo-2020.jpg',
+  posicao: 'center 82%',           // opcional: recorte vertical do cartão/galeria
   atualizado: '2026-10-15',        // data mostrada no detalhe
   anuncio: 'https://www.instagram.com/p/XXXX/'  // link do anúncio original (opcional)
 }
@@ -109,6 +110,9 @@ Regras automáticas:
   do array — nada de páginas fixas.
 - **Fotos**: adicione o arquivo em `img/veiculos/` (ideal: 1024px+, JPG) e gere uma
   miniatura de ~420px em `img/veiculos/thumbs/` para os cartões.
+- **`posicao`** (opcional): fotos verticais ou com o carro fora do centro podem ser
+  enquadradas com `object-position` (ex.: `'center 82%'` empura o recorte para baixo,
+  `'center 20%'` para cima). Sem o campo, o recorte fica centralizado.
 
 ---
 
