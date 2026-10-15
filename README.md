@@ -22,6 +22,26 @@ abertos direto no navegador, mas o `server.ps1` evita problemas de CORS/URL).
 
 ---
 
+## Publicação (online)
+
+- **Site no ar**: <https://ddesites.github.io/ferreira-veiculos/>
+- **Repositório**: <https://github.com/DDESites/ferreira-veiculos>
+
+Publicado via **GitHub Pages** a partir da branch `main` (raiz). Para atualizar:
+
+```powershell
+git add -A
+git commit -m "Atualização do site"
+git push origin main
+```
+
+O GitHub Pages rebuilda sozinho em ~30 segundos. Como todos os caminhos são relativos,
+o mesmo código também funciona em outro domínio/pasta sem ajustes — apenas o `og:image`
+dos `<head>` das páginas usa a URL absoluta do GitHub Pages e deve ser trocada se o
+domínio mudar.
+
+---
+
 ## Estrutura
 
 ```
