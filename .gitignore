@@ -1,0 +1,10 @@
+# Ignorados na publicação
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.log
+
+# artefatos temporários de teste/diagnóstico
+diagnostico.html
+_mobile.html
+_preview.html

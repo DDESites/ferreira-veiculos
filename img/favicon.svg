@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Ferreira Veículos">
+  <defs>
+    <linearGradient id="ouroF" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F7DC86"/>
+      <stop offset="50%" stop-color="#E0B443"/>
+      <stop offset="100%" stop-color="#B8891A"/>
+    </linearGradient>
+    <linearGradient id="prataF" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#AEB5BC"/>
+      <stop offset="100%" stop-color="#E4E8EB"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#0B0C0E"/>
+  <rect x="1.5" y="1.5" width="61" height="61" rx="12.5" fill="none" stroke="#E0B443" stroke-opacity=".55"/>
+  <path fill="url(#ouroF)" d="M10 32 C 20 20, 40 14, 56 17 C 59 17.5, 59 22, 56 22 C 41 20, 25 25, 15 34 C 12 36.5, 8 35, 10 32 Z"/>
+  <path fill="url(#prataF)" d="M16 40 C 28 33, 44 30, 56 31 C 59 31.3, 59 35, 56 35 C 45 34, 32 37, 22 43 C 19 44.6, 14 42.5, 16 40 Z"/>
+  <text x="32" y="56" text-anchor="middle" font-family="Montserrat, 'Arial Black', Arial, sans-serif"
+        font-size="20" font-weight="800" letter-spacing="1" fill="url(#prataF)">F</text>
+</svg>

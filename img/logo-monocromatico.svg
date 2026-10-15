@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 176" role="img" aria-label="Ferreira Veículos (monocromático)">
+  <!-- Versão monocromática: um único tom, para carimbos, marca d'água
+       em fotos e fundos onde a cor não é aplicável. -->
+  <g fill="#F4F6F7">
+    <path d="M46 66 C 92 24, 204 6, 312 20 C 322 21.5, 324 30, 315 31 C 214 26, 112 44, 62 76 C 52 82, 40 74, 46 66 Z"/>
+    <path d="M74 88 C 138 62, 244 52, 316 58 C 324 58.7, 325 67, 317 68 C 246 64, 156 74, 96 96 C 86 100, 68 95, 74 88 Z"/>
+    <path d="M150 96 C 196 84, 258 78, 312 79 L 312 85 C 258 84, 204 90, 162 101 C 154 103, 144 99, 150 96 Z"/>
+    <text x="180" y="146" text-anchor="middle" font-family="Montserrat, 'Arial Black', Arial, sans-serif"
+          font-size="58" font-weight="800" letter-spacing="4">FERREIRA</text>
+    <text x="180" y="172" text-anchor="middle" font-family="Montserrat, Arial, sans-serif"
+          font-size="24" font-weight="600" letter-spacing="13">VEÍCULOS</text>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 176" role="img" aria-label="Ferreira Veículos">
+  <defs>
+    <linearGradient id="prataC" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8A9299"/>
+      <stop offset="35%" stop-color="#5E666D"/>
+      <stop offset="55%" stop-color="#3C4348"/>
+      <stop offset="75%" stop-color="#767E85"/>
+      <stop offset="100%" stop-color="#4A5157"/>
+    </linearGradient>
+    <linearGradient id="ouroC" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#D9A62B"/>
+      <stop offset="50%" stop-color="#B8891A"/>
+      <stop offset="100%" stop-color="#8F6A12"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#ouroC)" d="M46 66 C 92 24, 204 6, 312 20 C 322 21.5, 324 30, 315 31 C 214 26, 112 44, 62 76 C 52 82, 40 74, 46 66 Z"/>
+  <path fill="url(#prataC)" d="M74 88 C 138 62, 244 52, 316 58 C 324 58.7, 325 67, 317 68 C 246 64, 156 74, 96 96 C 86 100, 68 95, 74 88 Z"/>
+  <path fill="url(#ouroC)" d="M150 96 C 196 84, 258 78, 312 79 L 312 85 C 258 84, 204 90, 162 101 C 154 103, 144 99, 150 96 Z"/>
+  <text x="180" y="146" text-anchor="middle" font-family="Montserrat, 'Arial Black', Arial, sans-serif"
+        font-size="58" font-weight="800" letter-spacing="4" fill="url(#prataC)">FERREIRA</text>
+  <text x="180" y="172" text-anchor="middle" font-family="Montserrat, Arial, sans-serif"
+        font-size="24" font-weight="600" letter-spacing="13" fill="url(#ouroC)">VEÍCULOS</text>
+</svg>
